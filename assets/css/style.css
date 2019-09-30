@@ -44,3 +44,8 @@ section#header {
 .profile-detail h4 {
   font-weight: 300;
 }
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
