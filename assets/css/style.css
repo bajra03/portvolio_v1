@@ -1,0 +1,46 @@
+section#header {
+  height: 100vh;
+  background-color: #232741;
+}
+
+.container.p-3.profile-box {
+  -webkit-box-shadow: 0px 4px 7px -3px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0px 4px 7px -3px rgba(0,0,0,0.3);
+  box-shadow: 0px 4px 7px -3px rgba(0,0,0,0.3);
+}
+
+.container.p-3.profile-box {
+  max-width: 940px !important;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+}
+
+.social-wrapper ul {
+  padding: 0;
+}
+
+.social-wrapper ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px 0 0;
+}
+.social-wrapper ul li a {  
+  font-size:18px;
+  border-radius: 50%;
+  border: solid #000;
+  color: #000;
+  line-height: 32px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  display: inline-block;
+  transition:0.5s;
+}
+
+.profile-detail h4 {
+  font-weight: 300;
+}
