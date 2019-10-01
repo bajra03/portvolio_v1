@@ -1,28 +1,38 @@
-section#header {
-  height: 100vh;
+/* Open Sans Font */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,700&display=swap');
+
+/* Default Styling */
+.bg-color {
   background-color: #232741;
 }
+body {
+  font-family: 'Open Sans', sans-serif;
+}
 
+/* Header Styling */
+section#header {
+  /* height: 100vh; */
+}
 .container.p-3.profile-box {
   -webkit-box-shadow: 0px 4px 7px -3px rgba(0,0,0,0.3);
   -moz-box-shadow: 0px 4px 7px -3px rgba(0,0,0,0.3);
   box-shadow: 0px 4px 7px -3px rgba(0,0,0,0.3);
 }
-
 .container.p-3.profile-box {
   max-width: 940px !important;
-  width: 95%;
+  width: 100%;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: #fff;
 }
-
+.profile-detail p {
+  text-align: justify;
+}
 .social-wrapper ul {
   padding: 0;
 }
-
 .social-wrapper ul li {
   list-style: none;
   display: inline-block;
@@ -31,8 +41,8 @@ section#header {
 .social-wrapper ul li a {  
   font-size:18px;
   border-radius: 50%;
-  border: solid #000;
-  color: #000;
+  border: solid #212529;
+  color: #212529;
   line-height: 32px;
   width: 40px;
   height: 40px;
@@ -40,16 +50,61 @@ section#header {
   display: inline-block;
   transition:0.5s;
 }
-
+.social-wrapper ul li a:hover {
+  border: solid #232741;
+  color: #fff;
+  background-color: #232741;
+}
 .profile-detail h4 {
   font-weight: 300;
 }
 
-canvas {
-  display: block;
-  vertical-align: bottom;
+/* Experience Styling */
+section#experience {
+  padding-top: 50px;
+}
+.container.experience-box {
+  max-width: 940px !important;
+  width: 100%;
+  background-color: #fff;
+  margin: 0 auto;
 }
 
-section#experience {
-  height: 100vh;
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive Styling */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .container.p-3.profile-box {
+    width: 95%;
+  }
+  .img-profile {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .profile-detail h1,
+  .profile-detail h4 {
+    text-align: center;
+  }
+  .profile-detail p {
+    text-align: justify;
+  }
+  .social-wrapper {
+    text-align: center;
+  }
+
+  /* Experience Styling */
+  .container.experience-box {
+    width: 95%;
+  }
 }

@@ -102,5 +102,4 @@ particlesJS("header", {
     }
   },
   "retina_detect": true
-
 });
