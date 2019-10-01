@@ -87,6 +87,10 @@ section#experience {
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .container.p-3.profile-box {
     width: 95%;
+    position: relative;
+    top: 10px;
+    left: 0;
+    transform: none;
   }
   .img-profile {
     text-align: center;
