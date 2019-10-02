@@ -14,9 +14,9 @@ body, html {
 section#header {
 }
 .container.p-3.profile-box {
-  -webkit-box-shadow: 0px 4px 7px -3px rgba(0,0,0,0.3);
-  -moz-box-shadow: 0px 4px 7px -3px rgba(0,0,0,0.3);
-  box-shadow: 0px 4px 7px -3px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 0px 10px 7px -3px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0px 10px 7px -3px rgba(0,0,0,0.3);
+  box-shadow: 0px 10px 7px -3px rgba(0,0,0,0.3);
 }
 .container.p-3.profile-box {
   max-width: 940px !important;
@@ -87,7 +87,8 @@ section#experience {
 
 
 /* Responsive Styling */
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) 
+and (max-width: 480px) {
   .container.p-3.profile-box {
     width: 95%;
     position: relative;
@@ -118,6 +119,13 @@ section#experience {
 
   /* Experience Styling */
   .container.experience-box {
+    width: 95%;
+  }
+}
+
+@media screen and (min-width: 481px)
+and (max-width: 768px) {
+  .container.p-3.profile-box {
     width: 95%;
   }
 }
