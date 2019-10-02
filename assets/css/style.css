@@ -2,8 +2,15 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,700&display=swap');
 
 /* Default Styling */
-.bg-color {
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0;
+}
+.primary-color {
   background-color: #232741;
+}
+.secondary-color {
+  /* background-color: #666B8D; */
+  background-color: #1a1d30;
 }
 body, html {
   font-family: 'Open Sans', sans-serif;
@@ -71,6 +78,57 @@ section#experience {
   width: 100%;
   background-color: #fff;
   margin: 0 auto;
+}
+.container.resume-box {
+  max-width: 940px !important;
+  width: 100%;
+  padding: 0;
+}
+.resume-header {
+  padding: 30px;
+  color: #fff;
+}
+.resume-content {
+  padding: 15px;
+}
+.resume-timeline {
+  border-left: 2px solid #e0e0e0;
+  padding: 15px 0;
+}
+.resume-title {
+  margin-bottom: 25px;
+}
+.timeline-item {
+  position: relative;
+  padding: 15px 20px 10px;
+  margin: 0 0 20px 15px;
+  background-color: #fffa;
+  box-shadow: 0 0px 6px -3px rgba(0,0,0,0.3);
+  border-left: 2px solid #232741;
+}
+h4.item-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+span.item-period {
+  font-size: 14px;
+  font-weight: 600;
+  color: #3e4573;
+}
+span.item-profision {
+  font-size: 14px;
+  font-weight: 600;
+  border-left: 1px solid #a2a2a2;
+  padding-left: 8px;
+  margin-left: 5px;
+  color: #a2a2a2;
+}
+p.item-desc{
+  margin-top: 8px;
+  text-align: justify;
+  font-size: 14px;
+  font-weight: 400;
+  color: #424242;
 }
 
 
