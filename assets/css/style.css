@@ -5,13 +5,13 @@
 .bg-color {
   background-color: #232741;
 }
-body {
+body, html {
   font-family: 'Open Sans', sans-serif;
+  height: 100%;
 }
 
 /* Header Styling */
 section#header {
-  /* height: 100vh; */
 }
 .container.p-3.profile-box {
   -webkit-box-shadow: 0px 4px 7px -3px rgba(0,0,0,0.3);
@@ -26,6 +26,9 @@ section#header {
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: #fff;
+}
+.img-profile img {
+  width: 100%;
 }
 .profile-detail p {
   text-align: justify;
@@ -99,6 +102,12 @@ section#experience {
   .profile-detail h1,
   .profile-detail h4 {
     text-align: center;
+  }
+  .profile-detail h1 {
+    font-size: 32px;
+  }
+  .profile-detail h4 {
+    font-size: 16px;
   }
   .profile-detail p {
     text-align: justify;
