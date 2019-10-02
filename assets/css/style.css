@@ -16,6 +16,9 @@ body, html {
   font-family: 'Open Sans', sans-serif;
   height: 100%;
 }
+section {
+  padding: 50px 0;
+}
 
 /* Header Styling */
 section#header {
@@ -159,6 +162,16 @@ p.item-desc{
   color: #424242;
 }
 
+
+
+
+
+/* Footer Section */
+.copyright {
+  color: #fff;
+  padding: 20px;
+  font-size: 13px;
+}
 
 
 
