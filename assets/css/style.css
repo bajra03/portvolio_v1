@@ -164,6 +164,39 @@ p.item-desc{
 }
 
 /* Portfolio Section */
+.btn-group.filter-option {
+  margin-top: 20px;
+}
+.filter-btn {
+  border: none;
+  outline: none;
+  color: #fff;
+  width: 110px;
+  padding: 4px 10px;
+  background-color: rgba(112,138,255,0.5);
+  margin-right: 5px;
+}
+.filter-btn:hover {
+  background-color: #232741;
+  transition: .1s ease-in;
+}
+.active {
+  background-color: #232741;
+}
+.row.portfolio-container {
+  margin-top: 20px;
+}
+.card-img-top {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.modal-body img {
+  width: 100%;
+}
+.modal-body p {
+  text-align: justify;
+  margin-top: 20px;
+}
 
 
 /* Back to top button */
@@ -190,6 +223,9 @@ a#topButton {
   color: #fff;
   padding: 20px;
   font-size: 13px;
+}
+i.fas.fa-heart {
+  color: rgb(112,138,255);
 }
 
 

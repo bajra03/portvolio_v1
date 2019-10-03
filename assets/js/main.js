@@ -1,5 +1,6 @@
-// Smooth scroll
+
 $(document).ready(function(){
+  // Smooth scroll
   $("a").on('click', function(event){
     if(this.hash !== ""){
       event.preventDefault();
@@ -12,7 +13,35 @@ $(document).ready(function(){
       });
     }
   });
+
+  var $container = $('.portfolio-container');
+
+  $container.isotope({
+    filter: '*',
+    animationOptions: {
+      duration: 700,
+      easing: 'linear',
+      queue: false
+    }
+  });
+
+  $('.filter-option button').click(function(){
+    $('.filter-option .active').removeClass('active');
+    $(this).addClass('active');
+
+    var selector = $(this).attr('data-filter');
+    $container.isotope({
+      filter: selector,
+      animationOptions: {
+        duration: 700,
+        easing: 'liniear',
+        queue: false
+      }
+    });
+    return false;
+  });
 });
+
 
 // Hide and display top button
 var topButton = document.getElementById('topButton');
@@ -27,6 +56,9 @@ function scrollFunction() {
     topButton.style.display = "none";
   }
 }
+
+
+
 
 
 
