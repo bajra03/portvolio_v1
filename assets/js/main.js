@@ -14,6 +14,7 @@ $(document).ready(function(){
     }
   });
 
+  // Portfolio Section
   var $container = $('.portfolio-container');
 
   $container.isotope({
@@ -42,7 +43,6 @@ $(document).ready(function(){
   });
 });
 
-
 // Hide and display top button
 var topButton = document.getElementById('topButton');
 
@@ -56,34 +56,6 @@ function scrollFunction() {
     topButton.style.display = "none";
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // Particle JS
 particlesJS("section-header", {

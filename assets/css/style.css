@@ -36,9 +36,7 @@ section {
 .inner-content {
   padding: 15px;
 }
-.active {
-  background-color: #232741;
-}
+
 
 /* Header Section */
 section#header {
@@ -90,6 +88,9 @@ section#header {
 }
 .profile-detail h4 {
   font-weight: 300;
+}
+.social-wrapper h4 {
+  margin-bottom: 16px;
 }
 
 /* Resume Section */
@@ -187,6 +188,9 @@ section#section-portfolio {
   margin-top: 5px;
   margin-right: 5px;
 }
+.active {
+  background-color: #232741;
+}
 .filter-btn:hover {
   background-color: #232741;
   transition: .1s ease-in;
@@ -212,7 +216,6 @@ section#section-portfolio {
 .portfolio-container .filter {
   margin-bottom: 15px;
 }
-
 
 /* Back to top button */
 a#topButton {
@@ -278,13 +281,19 @@ and (max-width: 480px) {
     font-size: 32px;
   }
   .profile-detail h4 {
-    font-size: 16px;
+    font-size: 24px;
   }
   .profile-detail p {
     text-align: justify;
   }
   .social-wrapper {
     text-align: center;
+  }
+  .social-wrapper ul li a {
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
+    line-height: 24px;
   }
 
   /* Resume Mobile */
