@@ -164,6 +164,11 @@ p.item-desc{
 }
 
 /* Portfolio Section */
+section#section-portfolio {
+  background-image: url(../img/jupiter.png);
+  background-position: top left;
+  background-repeat: no-repeat;
+}
 .btn-group.filter-option {
   margin-top: 20px;
 }
