@@ -224,6 +224,10 @@ section#section-portfolio {
 .portfolio-container .filter {
   margin-bottom: 15px;
 }
+.modal-footer a:hover {
+  border: 1px solid #232741;
+  background-color: #232741;
+}
 
 /* Back to top button */
 a#topButton {
