@@ -36,6 +36,9 @@ section {
 .inner-content {
   padding: 15px;
 }
+.active {
+  background-color: #232741;
+}
 
 /* Header Section */
 section#header {
@@ -171,6 +174,8 @@ section#section-portfolio {
 }
 .btn-group.filter-option {
   margin-top: 20px;
+  display: inline-flex;
+  flex-wrap: wrap;
 }
 .filter-btn {
   border: none;
@@ -179,17 +184,19 @@ section#section-portfolio {
   width: 110px;
   padding: 4px 10px;
   background-color: rgba(112,138,255,0.5);
+  margin-top: 5px;
   margin-right: 5px;
 }
 .filter-btn:hover {
   background-color: #232741;
   transition: .1s ease-in;
 }
-.active {
-  background-color: #232741;
-}
 .row.portfolio-container {
   margin-top: 20px;
+}
+.portfolio-item .card img {
+  max-width: 313px;
+  width: 100%;
 }
 .card-img-top {
   border-top-left-radius: 0;
@@ -201,6 +208,9 @@ section#section-portfolio {
 .modal-body p {
   text-align: justify;
   margin-top: 20px;
+}
+.portfolio-container .filter {
+  margin-bottom: 15px;
 }
 
 
