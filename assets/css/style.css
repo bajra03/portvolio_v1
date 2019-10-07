@@ -39,7 +39,9 @@ section {
 
 
 /* Header Section */
-section#header {
+section#section-header {
+  display: flex;
+  height: 100%;
 }
 .container.p-3.profile-box {
   -webkit-box-shadow: 0px 10px 7px -3px rgba(0,0,0,0.3);
@@ -49,11 +51,17 @@ section#header {
 .container.p-3.profile-box {
   max-width: 940px !important;
   width: 100%;
-  position: absolute;
+  /* position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
+  align-self: center;
   background-color: #fff;
+  z-index: 999;
+}
+canvas.particles-js-canvas-el {
+  position: absolute;
+  top: 0;
 }
 .img-profile img {
   width: 100%;
@@ -262,12 +270,11 @@ i.fas.fa-heart {
 @media screen and (min-width: 320px) 
 and (max-width: 480px) {
   /* Header Mobile */
+  section#section-header {
+    height: auto !important;
+  }
   .container.p-3.profile-box {
     width: 95%;
-    position: absolute;
-    top: 35px;
-    left: 10px;
-    transform: none;
   }
   .img-profile {
     text-align: center;
