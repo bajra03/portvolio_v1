@@ -228,6 +228,13 @@ section#section-portfolio {
   border: 1px solid #232741;
   background-color: #232741;
 }
+.modal-footer a.btn {
+  border-radius: unset;
+}
+.modal-dialog .modal-content {
+  border: unset;
+  border-radius: unset;
+}
 
 /* Back to top button */
 a#topButton {
